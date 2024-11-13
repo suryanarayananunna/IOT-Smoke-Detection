@@ -1,0 +1,9 @@
+<div class="smoke-detection-container">
+    <h1>Smoke Detection</h1>
+    <p>Analog Value: {{ analogValue }}</p>
+    <p>Digital Value: {{ digitalValue }}</p>
+  
+    <p *ngIf="smokeDetected" class="smoke-alert">Smoke Detected!</p>
+    <p *ngIf="!smokeDetected" class="no-smoke">No Smoke Detected</p>
+  </div>
+  

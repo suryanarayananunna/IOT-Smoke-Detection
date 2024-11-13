@@ -1,0 +1,17 @@
+.smoke-detection-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .smoke-alert {
+    color: red;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .no-smoke {
+    color: green;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
